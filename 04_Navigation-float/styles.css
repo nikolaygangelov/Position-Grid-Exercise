@@ -1,0 +1,102 @@
+body > header {
+    width: 50rem;
+    grid-area: header;
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    gap: 28rem;
+
+}
+
+body > header p {
+    align-self: flex-end;
+}
+
+body > header nav ul {
+    list-style:none;
+    
+}
+
+body > header nav ul li {
+    display: inline;
+    margin: 0 0.3rem;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 55% auto;
+    grid-template-areas: 
+    "header header"
+     "main aside";
+     gap: 10px;
+     column-gap: 30px;
+     justify-content: center;
+     background-color: rgb(238, 238, 238);
+     padding: 5rem;
+     
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 2px solid gray;
+    font-style: italic;
+    padding-left: 2rem;
+    color: gray;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+h1, h2 {
+    font: 1em/1.2 Georgia, serif;
+}
+
+.img1 {
+    float: right;
+    margin: 5px;
+    padding: 0.35rem;
+    border: 0.2rem solid #000;
+    width: 16%;
+    height: 16%;
+}
+
+.img2 {
+    float: left;
+    margin: 5px;
+    padding: 0.35rem;
+    border: 0.2rem solid #000;
+    width: 22%;
+    height: 8%;
+}
+
+.article-blockquote {
+    display: flex;
+    
+}
+
+blockquote > p {
+    text-align: right;
+}
+
+.article-blockquote > p {
+    width: 170%;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
