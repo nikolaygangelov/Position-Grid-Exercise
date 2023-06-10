@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+    background-color: rgb(219, 209, 209);
+    padding: 0.8rem;
+    margin: 0.3rem;
+}
+
+.svg1:hover {
+    fill: rgb(52, 103, 133);
+}
+
+.svg2:hover {
+    fill: rgb(87, 169, 216);
+}
+
+.svg3:hover {
+    fill: rgb(240, 63, 71);
+}
+
+.svg4:hover {
+    fill: rgb(77, 125, 153);
+}
+
+
+.svg5:hover {
+    fill: rgb(156, 170, 179);
+}
